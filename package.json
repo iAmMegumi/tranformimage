@@ -1,0 +1,26 @@
+{
+  "name": "tranformimage",
+  "version": "0.0.01",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iAmMegumi/tranformimage.git"
+  },
+  "keywords": [
+    "image",
+    "transform",
+    "scale",
+    "processing",
+    "deployment"
+  ],
+  "dependencies": {
+      "gm" : ">=0.0.0"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "start": "node test/test.js",
+    "test": "node node_modules/jasmine-node/bin/jasmine-node --verbose test/"
+  },
+  "readmeFilename": "README.md",
+  "description": "transform an image"
+}
